@@ -27,7 +27,7 @@ const navigation = () => {
       <div className="hidden lg:flex lg:gap-x-12">
         <Link to="/about" className="text-sm/6 font-semibold text-gray-900">About</Link>
         <Link to="/team" className="text-sm/6 font-semibold text-gray-900">Our Team</Link>
-        <a href="#" className="text-sm/6 font-semibold text-gray-900">Services</a>
+        <Link to="/services" className="text-sm/6 font-semibold text-gray-900">Services</Link>
         <a href="#" className="text-sm/6 font-semibold text-gray-900">Contact</a>
       </div>
       <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -55,13 +55,13 @@ const navigation = () => {
         <div className="mt-6 flow-root">
           <div className="-my-6 divide-y divide-gray-500/10">
             <div className="space-y-2 py-6">
-              <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Product</a>
-              <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Features</a>
-              <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Marketplace</a>
-              <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Company</a>
+              <Link to="/about" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">About</Link>
+              <Link to="/team" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Our Team</Link>
+              <Link to="/services" className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Services</Link>
+
             </div>
             <div className="py-6">
-              <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
+              <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</a>
             </div>
           </div>
         </div>
